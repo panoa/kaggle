@@ -1,0 +1,159 @@
+/* スライド全体のフォントの種類、サイズ */
+.rise-enabled .reveal .slides
+{
+    font-size: 15px;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: "Ricty", monospace;
+}
+
+/* 文字の色関係 */
+.rise-enabled .reveal .slides :-webkit-any(h1, h2, h3, p, li),
+.rise-enabled .reveal .slides div.output_subarea>pre
+{
+    color: black;
+}
+
+.rise-enabled .reveal .slides :-webkit-any(h4, h5, h6)
+{
+    color: dimgray;
+}
+
+.rise-enabled .reveal .slides :-webkit-any(li)
+{
+    font-size: 90%;
+}
+
+/* リンクハイライト */
+.rise-enabled .reveal .slides a
+{
+    color: blue;
+}
+
+/* スライド背景色 */
+.rise-enabled .reveal
+{
+    background-color: whitesmoke;
+    /* element-overrides */
+}
+
+/* In[] の色 */
+/***
+.rise-enabled .reveal .slides div.prompt.input_prompt
+{
+    color: deepskyblue;
+}
+***/
+
+/* Outのフォントサイズ */
+.rise-enabled .reveal .slides div.output_subarea>pre
+{
+    font-size: 110%
+}
+
+/* CodeMirror背景色 */
+.rise-enabled .reveal .slides div.CodeMirror-lines
+{
+    background-color: #303030;
+}
+
+/* CodeMirrorのフォント*/
+.rise-enabled .reveal .slides pre.CodeMirror-line
+{
+    font-size: 130%;
+    line-height: 110%;
+    color: white;
+}
+
+/* CodeMirror-def */
+.rise-enabled .reveal .slides span.cm-def
+{
+    color: #7fffff
+}
+
+/* CodeMirror-Comment */
+.rise-enabled .reveal .slides span.cm-comment
+{
+    color: #84c1ff
+}
+
+/* CodeMirror-Keyword */
+.rise-enabled .reveal .slides span.cm-keyword
+{
+    color: #84ffc1
+}
+
+/* CodeMirror-Number */
+.rise-enabled .reveal .slides span.cm-number
+{
+    color: #84ff84
+}
+
+/* CodeMirror-Builtin */
+.rise-enabled .reveal .slides span.cm-builtin
+{
+    color: #c1ff84
+}
+
+/* CodeMirror-String */
+.rise-enabled .reveal .slides span.cm-string
+{
+    color: #ff8484
+}
+
+/* CodeMirror-Operator */
+.rise-enabled .reveal .slides span.cm-operator
+{
+    color: #c184ff
+}
+
+/* CodeMirrorの変数フォントカラー */
+.rise-enabled .reveal .slides span.cm-variable
+{
+    color: white;
+}
+/* コードブロックの背景色 表面色 フォントサイズ */
+.rise-enabled .reveal .slides code
+{
+    background-color: whitesmoke;
+    color: darkslategray;
+    font-size: 90%;
+}
+
+/* 水平線の色 */
+.rise-enabled .reveal .slides hr
+{
+    height: 5px;
+    background: royalblue;
+}
+
+/* テーブルのフォントサイズ調整 */
+.rise-enabled .reveal .slides table
+{
+    font-size: 100%;
+}
+
+.rise-enabled .reveal .slides table tr:nth-child(even)
+{
+    background: gainsboro;
+}
+
+.rise-enabled .reveal .slides table tr:hover
+{
+    background: lightskyblue;
+}
+
+/* pd.DataFrameフォントサイズ調整、色調整 */
+.rise-enabled .reveal .slides table.dataframe
+{
+    font-size: 105%;
+}
+
+.rise-enabled .reveal .slides table.dataframe tr:nth-child(even)
+{
+    background: gainsboro;
+}
+
+.rise-enabled .reveal .slides table.dataframe tr:hover
+{
+    background: lightskyblue;
+}
